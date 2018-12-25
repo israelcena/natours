@@ -1,0 +1,25 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing Page at natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israelcena/natours.git"
+  },
+  "keywords": [
+    "LandingPage"
+  ],
+  "author": "Jonas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israelcena/natours/issues"
+  },
+  "homepage": "https://github.com/israelcena/natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
