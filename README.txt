@@ -12,6 +12,5 @@ Credits:
 	Icons:
 		Font Awesome (fontawesome.io)
 
-	Other:
-		jQuery (jquery.com)
-		
+	GridSystem:
+		icgridsystem (israelcena.com.br)
