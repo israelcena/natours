@@ -7,6 +7,33 @@
     left: 0;
     z-index: 9999;
 
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3;
+
+    &:target {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &__close {
+        &:visited,
+        &:link {
+            color: $color-grey-dark;
+            position: absolute;
+            top: 2.5rem;
+            right: 2.5rem;
+            font-size: 3rem;
+            text-decoration: none;
+            display: inline-block;
+            transition: all .2s;
+            line-height: 1;
+        }
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
     &__content {
         @include absCenter;
         width: 75%;
@@ -37,7 +64,7 @@
     &__text {
         font-size: 1.4rem;
         margin-bottom: 4rem;
-        
+
         column-count: 2;
         column-gap: 4rem;
         column-rule: 1px solid $color-grey-light-2;
