@@ -1,5 +1,6 @@
 // Vars
 
+var gulp = require('gulp');
 var html = require('gulp-htmlmin');
 
 // htmlmin
