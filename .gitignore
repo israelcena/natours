@@ -104,4 +104,7 @@ typings/
 *.sass.map
 *.scss.map
 
+### vscode ###
+.vscode/
+
 # End of https://www.gitignore.io/api/node,sass,linux
