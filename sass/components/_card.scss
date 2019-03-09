@@ -1,5 +1,5 @@
 .card {
-    //Funcionalidades
+//Functionalities
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
@@ -47,7 +47,7 @@
     }
 
 
-    //Front Side Style
+//Front Side Style
 
     &__picture {
         background-size: cover;
@@ -129,7 +129,6 @@
     }
 
     // Back side styling
-
     &__cta {
         position: absolute;
         top: 50%;
@@ -137,7 +136,6 @@
         transform: translate(-50%, -50%);
         width: 90%;
         text-align: center;
-
     }
 
     &__price-box {
@@ -150,6 +148,7 @@
         font-size: 1.4rem;
         text-transform: uppercase;
     }
+
     &__price-value {
         font-size: 6rem;
         font-weight: 100;
