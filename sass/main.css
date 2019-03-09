@@ -735,10 +735,25 @@ Enjoy :)
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 3px;
   padding: 6rem;
-  font-size: 1.6rem;
   padding-left: 9rem;
+  font-size: 1.6rem;
   -webkit-transform: skewX(-12deg);
           transform: skewX(-12deg);
+}
+
+@media (max-width: 56.25em) {
+  .story {
+    width: 100%;
+    padding: 4rem;
+    padding-left: 7rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .story {
+    -webkit-transform: skewX(0);
+            transform: skewX(0);
+  }
 }
 
 .story__shape {
@@ -751,6 +766,13 @@ Enjoy :)
   -webkit-transform: translate(-3rem) skewX(12deg);
           transform: translate(-3rem) skewX(12deg);
   position: relative;
+}
+
+@media (max-width: 37.5em) {
+  .story__shape {
+    -webkit-transform: translate(-3rem) skewX(0);
+            transform: translate(-3rem) skewX(0);
+  }
 }
 
 .story__img {
@@ -766,6 +788,13 @@ Enjoy :)
 .story__text {
   -webkit-transform: skewX(12deg);
           transform: skewX(12deg);
+}
+
+@media (max-width: 37.5em) {
+  .story__text {
+    -webkit-transform: skewX(0);
+            transform: skewX(0);
+  }
 }
 
 .story__capition {
