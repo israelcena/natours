@@ -392,6 +392,12 @@ body {
           transform: translateY(0);
 }
 
+/* This section is separted in three parts
+- Functionalities
+- Front Side Style
+- Back Side Style
+Enjoy :)
+*/
 .card {
   -webkit-perspective: 150rem;
           perspective: 150rem;

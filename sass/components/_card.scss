@@ -1,3 +1,10 @@
+/* This section is separted in three parts
+- Functionalities
+- Front Side Style
+- Back Side Style
+Enjoy :)
+*/
+
 .card {
 //Functionalities
     perspective: 150rem;
@@ -128,7 +135,7 @@
         }
     }
 
-    // Back side styling
+// Back Side Styling
     &__cta {
         position: absolute;
         top: 50%;
