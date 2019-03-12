@@ -48,6 +48,7 @@
         @include respond(phone) {
             transform: skewX(0);
         }
+
     }
 
     &__capition {
@@ -62,8 +63,6 @@
         opacity: 0;
         transition: all .5s;
         backface-visibility: hidden;
-
-
     }
 
     &:hover &__capition {
@@ -75,4 +74,5 @@
         transform: translate(-4rem) scale(1);
         filter: blur(3px) brightness(80%);
     }
+    
 }

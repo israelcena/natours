@@ -22,7 +22,6 @@
         opacity: 0;
         transform: translate(-50%,-50%) scale(.25);
         transition: all .4s .2s;
-        
     }
 
     &__left {
@@ -35,7 +34,7 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
-        }
+    }
 
     &__img {
         display: block;
@@ -82,5 +81,6 @@
         &:hover {
             color: $color-primary;
         }
+        
     }
 }
