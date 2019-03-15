@@ -1369,7 +1369,7 @@ Enjoy :)
 
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
-  width: 110%;
+  width: 100%;
 }
 
 .navigation__icon {
